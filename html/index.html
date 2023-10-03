@@ -29,94 +29,179 @@
      </nav>
    </header>
    <!-- main section -->
-   <main>
+   <main class=" ">
     <!-- card  -->
-    <section class="lg: w-1/2 ">
-        <div class="w-full md:w-[60%] lg:w-[80%] mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-6"">
-            <div class="card w- bg-base-100 shadow-xl">
-                <figure class="">
-                  <img src="/assetss/images/triangle.png" alt="Shoes" class="rounded-xl" />
+    <section class="lg:px-10 flex flex-col md:flex-row lg:flex-row ">
+        <div class=" md:w-[60%] lg:w-[68%] mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-3 ">
+            <!-- 1 -->
+            <div class="card card-compact w-64  shadow-2xl  ">
+                <figure>
+                  <img class="w-full h-40" src="/assetss/images/triangle.png" alt="triangle" />
                 </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
-                  <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
+                <div class="card-body">
+                  <h2 class="card-title justify-center text-3xl font-semibold ">Triangle</h2>
+                  <label class="my-2 text-xl" for="">area (a) = 0.5 x b x h</label>
+                  <div>
+                      <input id="triangle-inputfield1" class="w-20 bg-gray-200 rounded px-1" type="text" placeholder="b">
+                      <label for="">cm</label>
+                      <input id="triangle-inputfieldh" class="w-20 bg-gray-200 rounded px-1" type="text" placeholder="h">
+                      <label for="">cm</label>
+                  </div>
+                  
+                
+                  <div class="card-actions justify-center mt-2">
+                    <button class="btn bg-blue-400 hover:bg-blue-500 rounded-xl font-semibold" >
+                     Calculate
+                    </button>
                   </div>
                 </div>
               </div>
-              <div class="card w-96 bg-base-100 shadow-xl">
-                <figure class="px-10 pt-10">
-                  <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+          <!-- 2 -->
+              <div class="card card-compact w-64  shadow-2xl ">
+                <figure>
+                  <img class="w-full h-40" src="/assetss/images/rectangle.png" alt="rectangle" />
                 </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
-                  <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
+                <div class="card-body">
+                    <h2 class="card-title justify-center text-3xl font-semibold ">Rectangle</h2>
+                    <label class="my-2 text-xl pl-6" for="">area (b) =  w x l</label>
+                  <div>
+                      <input id="triangle-inputfield1" class="w-20 bg-gray-200 rounded px-1" type="text" placeholder="w">
+                      <label for="">cm</label>
+                      <input id="triangle-inputfieldh" class="w-20 bg-gray-200 rounded px-1" type="text" placeholder="l">
+                      <label for="">cm</label>
+                  </div>
+                  
+                 
+                  <div class="card-actions justify-center mt-2">
+                    <button class="btn bg-blue-400 hover:bg-blue-500 rounded-xl font-semibold" >
+                     Calculate
+                    </button>
                   </div>
                 </div>
               </div>
-              <div class="card w-96 bg-base-100 shadow-xl">
-                <figure class="px-10 pt-10">
-                  <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+<!-- 3 -->
+              <div class="card card-compact w-64  shadow-2xl ">
+                <figure>
+                  <img class="w-full h-40" src="/assetss/images/parallelogram.png" alt="parallelogram" />
                 </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
-                  <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
+                <div class="card-body">
+                  <h2 class="card-title justify-center text-3xl font-semibold" >parallelogram</h2>
+                  <label class="my-2 text-xl pl-6" for="">area (a) =  b x h</label>
+                  <div>
+                      <input id="triangle-inputfield1" class="w-20 bg-gray-200 rounded px-1" type="text" placeholder="b">
+                      <label for="">cm</label>
+                      <input id="triangle-inputfieldh" class="w-20 bg-gray-200 rounded px-1" type="text" placeholder="h">
+                      <label for="">cm</label>
+                  </div>
+                  
+                 
+                  <div class="card-actions justify-center mt-2">
+                    <button class="btn bg-blue-400 hover:bg-blue-500 rounded-xl font-semibold" >
+                      Calculate
+                    </button>
                   </div>
                 </div>
               </div>
-              <div class="card w-96 bg-base-100 shadow-xl">
-                <figure class="px-10 pt-10">
-                  <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+<!-- 4 -->
+              <div class="card card-compact w-64 shadow-2xl ">
+                <figure>
+                  <img class="w-full h-40" src="/assetss/images/rhombus.png" alt="rhombus" />
                 </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
-                  <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
+                <div class="card-body">
+                    <h2 class="card-title justify-center text-3xl font-semibold" >Rhombus</h2>
+                    <label class="my-2 text-xl" for="">area (a) =0.5 xd1 x d2</label>
+                    <div>
+                        <input id="triangle-inputfield1" class="w-20 bg-gray-200 rounded px-1" type="text" placeholder="d1">
+                        <label for="">cm</label>
+                        <input id="triangle-inputfieldh" class="w-20 bg-gray-200 rounded px-1" type="text" placeholder="d2">
+                        <label for="">cm</label>
+                    </div>
+
+                 
+                  <div class="card-actions justify-center mt-2">
+                    <button class="btn bg-blue-400 hover:bg-blue-500 rounded-xl font-semibold">
+                     Calculate
+                    </button>
                   </div>
                 </div>
               </div>
-              <div class="card w-96 bg-base-100 shadow-xl">
-                <figure class="px-10 pt-10">
-                  <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+
+
+             <!-- 5 -->
+
+              <div class="card card-compact w-64  shadow-2xl ">
+                <figure>
+                  <img class="w-full h-40" src="/assetss/images/pentagon.png" alt="pentagon" />
                 </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
-                  <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
+                <div class="card-body">
+                  <h2 class="card-title justify-center text-3xl" >Pentagon</h2>
+                  <label class="my-2 text-xl" for="">area (a) =0.5 x p x b </label>
+                  <div>
+                      <input id="triangle-inputfield1" class="w-20 bg-gray-200 rounded px-1" type="text" placeholder="p">
+                      <label for="">cm</label>
+                      <input id="triangle-inputfieldh" class="w-20 bg-gray-200 rounded px-1" type="text" placeholder="b">
+                      <label for="">cm</label>
+                  </div>
+
+                
+                  <div class="card-actions justify-center mt-2">
+                    <button class="btn bg-blue-400 hover:bg-blue-500 rounded-xl font-semibold" >
+                     Calculate
+                    </button>
                   </div>
                 </div>
               </div>
-              <div class="card w-96 bg-base-100 shadow-xl">
-                <figure class="px-10 pt-10">
-                  <img src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg" alt="Shoes" class="rounded-xl" />
+<!-- 6 -->
+              <div class="card card-compact w-64 shadow-2xl ">
+                <figure>
+                  <img class="w-full h-40" src="/assetss/images/ellipse.png" alt="ellipse" />
                 </figure>
-                <div class="card-body items-center text-center">
-                  <h2 class="card-title">Shoes!</h2>
-                  <p>If a dog chews shoes whose shoes does he choose?</p>
-                  <div class="card-actions">
-                    <button class="btn btn-primary">Buy Now</button>
+                <div class="card-body">
+                    <h2 class="card-title justify-center text-3xl font-semibold" >Ellipse</h2>
+                    <label class="my-2 text-xl pl-8" for="">area (a) =πab</label>
+                    <div>
+                        <input id="triangle-inputfield1" class="w-20 bg-gray-200 rounded px-1" type="text" placeholder="a">
+                        <label for="">cm</label>
+                        <input id="triangle-inputfieldh" class="w-20 bg-gray-200 rounded px-1" type="text" placeholder="b">
+                        <label for="">cm</label>
+                    </div>
+
+                
+                  <div class="card-actions justify-center mt-2">
+                    <button class="btn bg-blue-400 hover:bg-blue-500 rounded-xl font-semibold" >
+                      Calculate
+                    </button>
                   </div>
                 </div>
               </div>
-    
-    
+              </div>
+     <!-- text - area -->
+     <div class="cart-details w-full md:w-[40%] lg:w-[32%] mx-auto">
+        <h1 class="text-3xl text-center font-semibold underline mt-5">
+            Area Calculation
+        </h1>
+        <div class="overflow-x-auto">
+          <table class="table w-full">
+           
+           
+          </table>
         </div>
-      
     </section>
-    <!-- text - area -->
-    <section></section>
-
    </main>
+
+   <!-- footer -->
+   <footer class="footer items-center p-4 bg-neutral text-neutral-content justify-center text-xl mt-4 ">
+   
+        
+        <p class="block">Copyright © 2023 - All right reserved By <span class="text-sky-600 text-2xl">Mominul</span> </p>
+     
+   
+  </footer>
   
 
-  
+  <script src="/js/bgColor.js"></script>
+  <script src="/js/function.js"></script>
+  <script src="/js/app.js"></script>
     
 </body>
 </html>
