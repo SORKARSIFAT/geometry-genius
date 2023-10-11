@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en"  >
+<html lang="en" data-theme="" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -31,7 +31,7 @@
    <!-- main section -->
    <main class=" ">
     <!-- card  -->
-    <section class="lg:px-10 flex flex-col md:flex-row lg:flex-row ">
+    <section class="lg:px-10 flex flex-col md:flex-row lg:flex-row  ">
         <div  class= " md:w-[60%] lg:w-[68%] mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-3 ">
             <!-- 1 -->
             <div id="rendom-color1" class="card card-compact w-64 shadow-2xl  ">
@@ -39,12 +39,12 @@
                   <img class="w-full h-40" src="/assetss/images/triangle.png" alt="triangle" />
                 </figure>
                 <div class="card-body">
-                  <h2 class="card-title justify-center text-3xl font-semibold text-white ">Triangle</h2>
+                  <h2 id="triangle-text" class="card-title justify-center text-3xl font-semibold text-white ">Triangle</h2>
                   <label class="my-2 text-xl text-white" for="">area (a) = 0.5 x b x h</label>
                   <div class="text-black">
-                      <input id="triangle-inputfield1" class="w-20 bg-gray-200 rounded px-1" type="text" placeholder="b">
+                      <input id="base" class="w-20 bg-gray-200 rounded px-1" type="number" placeholder="b">
                       <label class="text-white" for="">cm</label>
-                      <input id="triangle-inputfieldh" class="w-20 bg-gray-200 rounded px-1" type="text" placeholder="h">
+                      <input id="hight" class="w-20 bg-gray-200 rounded px-1" type="number" placeholder="h">
                       <label class="text-white" for="">cm</label>
                   </div>
                   
@@ -65,15 +65,15 @@
                     <h2 class="card-title justify-center text-3xl font-semibold text-white ">Rectangle</h2>
                     <label class="my-2 text-xl pl-6 text-white" for="">area (b) =  w x l</label>
                   <div class="text-white">
-                      <input id="triangle-inputfield1" class="w-20 text-black bg-gray-200 rounded px-1" type="text" placeholder="w">
+                      <input id="triangle-inputfield1" class="w-20 text-black bg-gray-200 rounded px-1" type="number" placeholder="w">
                       <label for="">cm</label>
-                      <input id="triangle-inputfieldh" class="w-20 text-black bg-gray-200 rounded px-1" type="text" placeholder="l">
+                      <input id="triangle-inputfieldh" class="w-20 text-black bg-gray-200 rounded px-1" type="number" placeholder="l">
                       <label for="">cm</label>
                   </div>
                   
                  
                   <div class="card-actions justify-center mt-2">
-                    <button class="btn text-white bg-violet-700 hover:bg-violet-900 rounded-xl font-semibold" >
+                    <button id="rectangle-btn" class="btn text-white bg-violet-700 hover:bg-violet-900 rounded-xl font-semibold" >
                       Calculate
                   </div>
                 </div>
@@ -87,9 +87,9 @@
                   <h2 class="card-title justify-center text-3xl font-semibold text-white" >parallelogram</h2>
                   <label class="my-2 text-xl pl-6 text-white" for="">area (a) =  b x h</label>
                   <div class="text-white">
-                      <input id="triangle-inputfield1" class=" text-black w-20 bg-gray-200 rounded px-1" type="text" placeholder="b">
+                      <input id="triangle-inputfield1" class=" text-black w-20 bg-gray-200 rounded px-1" type="number" placeholder="b">
                       <label for="">cm</label>
-                      <input id="triangle-inputfieldh" class="  text-black w-20 bg-gray-200 rounded px-1" type="text" placeholder="h">
+                      <input id="triangle-inputfieldh" class="  text-black w-20 bg-gray-200 rounded px-1" type="number" placeholder="h">
                       <label for="">cm</label>
                   </div>
                   
@@ -109,9 +109,9 @@
                     <h2 class="card-title justify-center text-3xl font-semibold text-white" >Rhombus</h2>
                     <label class="my-2 text-xl text-white" for="">area (a) =0.5 xd1 x d2</label>
                     <div class="text-white">
-                        <input id="triangle-inputfield1" class="w-20 text-black bg-gray-200 rounded px-1" type="text" placeholder="d1">
+                        <input id="triangle-inputfield1" class="w-20 text-black bg-gray-200 rounded px-1" type="number" placeholder="d1">
                         <label for="">cm</label>
-                        <input id="triangle-inputfieldh" class="w-20 text-black bg-gray-200 rounded px-1" type="text" placeholder="d2">
+                        <input id="triangle-inputfieldh" class="w-20 text-black bg-gray-200 rounded px-1" type="number" placeholder="d2">
                         <label for="">cm</label>
                     </div>
 
@@ -124,8 +124,7 @@
                 </div>
               </div>
 
-
-             <!-- 5 -->
+  <!-- 5 -->
 
               <div id="rendom-color5" class="card card-compact w-64 shadow-2xl ">
                 <figure>
@@ -135,9 +134,9 @@
                   <h2 class="card-title justify-center text-3xl text-white" >Pentagon</h2>
                   <label class="my-2 text-xl text-white" for="">area (a) =0.5 x p x b </label>
                   <div class="text-white">
-                      <input id="triangle-inputfield1" class="w-20 text-black bg-gray-200 rounded px-1" type="text" placeholder="p">
+                      <input id="triangle-inputfield1" class="w-20 text-black bg-gray-200 rounded px-1" type="number" placeholder="p">
                       <label for="">cm</label>
-                      <input id="triangle-inputfieldh" class="w-20 text-black bg-gray-200 rounded px-1" type="text" placeholder="b">
+                      <input id="triangle-inputfieldh" class="w-20 text-black bg-gray-200 rounded px-1" type="number" placeholder="b">
                       <label for="">cm</label>
                   </div>
 
@@ -157,9 +156,9 @@
                     <h2 class="card-title justify-center text-3xl font-semibold" >Ellipse</h2>
                     <label class="my-2 text-xl pl-8" for="">area (a) =πab</label>
                     <div>
-                        <input id="triangle-inputfield1" class="w-20 text-black bg-gray-200 rounded px-1" type="text" placeholder="a">
+                        <input id="triangle-inputfield1" class="w-20 text-black bg-gray-200 rounded px-1" type="number" placeholder="a">
                         <label for="">cm</label>
-                        <input id="triangle-inputfieldh" class="w-20 text-black bg-gray-200 rounded px-1" type="text" placeholder="b">
+                        <input id="triangle-inputfieldh" class="w-20 text-black bg-gray-200 rounded px-1" type="number" placeholder="b">
                         <label for="">cm</label>
                     </div>
 
@@ -177,7 +176,7 @@
             Area Calculation
         </h1>
         <div class="overflow-x-auto">
-          <table class="table w-full">
+          <table id="table-container" class="table w-full">
           
           
           </table>
@@ -198,8 +197,11 @@
 
 <!-- ja file -->
 
-  <script src="/js/app.js"></script>
+
+
+   <script src="/js/app.js"></script>
    <script src="/js/common.js"></script>
+  
    <script src="/js/color.js"></script>
  
 </body>
